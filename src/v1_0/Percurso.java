@@ -55,8 +55,9 @@ public class Percurso {
 	
 	public void listarPerc() {
 		
-		JOptionPane.showMessageDialog(null, "Dados da Viagem:\nQuilômetragem: " + this.getKmPerc() + " km\nCombustível: R$:" + this.getValCombs() + "\nPedágios: " + this.getValPedag(), "Travl's Km", 1);
-		
+		JOptionPane.showMessageDialog(null, "Dados da Viagem:\nQuilômetragem: " + this.getKmPerc() 
+														+ " km\nCombustível: R$:" + this.getValCombs() 
+														+ "\nPedágios: R$:" + this.getValPedag(), "Travl's Km", 1);
 	}
 	
 
